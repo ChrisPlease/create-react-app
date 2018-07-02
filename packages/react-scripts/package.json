@@ -1,5 +1,5 @@
 {
-  "name": "bloom-react-scripts",
+  "name": "@chrisplz/bloom-react-scripts",
   "version": "1.1.4",
   "description": "IBN Bloom configuration and scripts for Create React App.",
   "repository": "ChrisPlease/create-react-app",
