@@ -1,4 +1,5 @@
 {
+  "name": "bloom-cra",
   "private": true,
   "workspaces": [
     "packages/*"
