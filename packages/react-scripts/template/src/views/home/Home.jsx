@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import logo from '../../assets/img/logo.svg';
 
+import './Home.css';
+
 export class Home extends Component {
   render() {
     return (
@@ -16,4 +18,4 @@ export class Home extends Component {
   }
 }
 
-export default connect(null, null)(Home)
+export default connect(null, null)(Home);

@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import Home from '../views/home/Home';
+import React, { Component, Fragment } from 'react';
 
-import './App.css';
+import Navigation from './navigation/Navigation';
+import { routes } from '../routes';
 
 class App extends Component {
   render() {
     return (
-      <Home />
+      <Fragment>
+        <Navigation />
+        {routes()}
+      </Fragment>
     );
   }
 }
