@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Home } from '../../../src/views/home/Home';
+import Navigation from '../../../src/components/navigation/Navigation';
 
-describe('Home', () => {
+describe('Navigation', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Home />);
+    wrapper = shallow(<Navigation />);
   });
 
   it('renders without crashing', () => {

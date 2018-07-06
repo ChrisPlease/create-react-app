@@ -1,16 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { MemoryRouter } from 'react-router-dom';
 
 import App from '../../src/components/App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
+describe('App.js', () => {
+  it('renders without crashing', () => {
+    const wrapper = shallow(<App />);
 
-  ReactDOM.render(
-    <MemoryRouter>
-      <App />
-    </MemoryRouter>,
-  div);
-  ReactDOM.unmountComponentAtNode(div);
+    expect(wrapper).toHaveLength(1);
+  });
 });
